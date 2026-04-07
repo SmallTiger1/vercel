@@ -1,12 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Site Pro</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello world</h1>
-    <H2>HY</H2>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">MonPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Projets</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Bienvenue sur mon site professionnel</h2>
+      <p>Développeur passionné par la cybersécurité et le développement web.</p>
+      <a href="#" class="btn">Voir mes projets</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <h2>À propos</h2>
+    <p>
+      Je suis étudiant en informatique spécialisé en cybersécurité.
+      Je crée des applications web modernes et sécurisées.
+    </p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects">
+    <h2>Mes projets</h2>
+    <div class="project-grid">
+      <div class="card">
+        <h3>Projet 1</h3>
+        <p>Description du projet.</p>
+      </div>
+      <div class="card">
+        <h3>Projet 2</h3>
+        <p>Description du projet.</p>
+      </div>
+      <div class="card">
+        <h3>Projet 3</h3>
+        <p>Description du projet.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Votre email" required>
+      <textarea placeholder="Votre message"></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 MonPortfolio - Tous droits réservés</p>
+  </footer>
+
 </body>
 </html>
